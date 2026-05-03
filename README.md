@@ -119,10 +119,10 @@ Already done part of it? Just say "skip step 1, I've already done it".
 
 ## FAQ
 
-**Does this send my data anywhere?**  
+**Does this send my data anywhere?**
 Your files live in folders on your machine. Copilot CLI sends prompt context to GitHub Copilot to run the model, so only add private exports and research if you are comfortable using them with Copilot under your account and organization policies.
 
-**Will it read my email automatically?**  
+**Will it read my email automatically?**
 No. It only connects to external tools if you configure an MCP server or connector and approve the relevant access.
 
 **Can I uninstall it?**
@@ -141,10 +141,10 @@ Remove-Item -Recurse -Force "$HOME\.copilot\skills\ai-second-brain"
 
 This removes the skill. It does not touch your Obsidian vault, raw folder, or wiki.
 
-**Does it work on Windows?**  
+**Does it work on Windows?**
 Yes. Steps 1 and 2 work on Windows, macOS, and Linux. Copilot CLI remote/mobile features and MCP connectors depend on the tools you configure. The original iMessage-specific workflow is Mac-only and is not a Copilot CLI feature.
 
-**Can I still use this with Claude Code?**  
+**Can I still use this with Claude Code?**
 The core workflow still works, but this fork's instructions are written for Copilot CLI. Use the upstream repository if you want Claude Code-specific install paths and Channels guidance.
 
 ---
